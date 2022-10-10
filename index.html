@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>BED Heat Map</title>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body,
+      input,
+      select {
+        font-family: "Helvetica Neue", "Arial", sans-serif;
+        font-size: 20px;
+        margin-right: 10px;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      .mapboxgl-popup-content {
+        max-width: 600px;
+        max-height: 400px;
+      }
+      .popup-col-container {
+        display: flex;
+      }
+      .building-info {
+        font-size: 16px;
+        padding-right: 10px;
+      }
+      .complaints-table {
+        display: inline-block;
+        min-width: fit-content;
+        max-height: 300px;
+        overflow-y: scroll;
+        border-style: solid;
+        border-width: thin;
+      }
+
+      .complaints-table > table {
+        margin: 5px;
+      }
+      td {
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"><div class="container">Loading&hellip;</div></div>
+    <script src="./main.tsx"></script>
+  </body>
+</html>

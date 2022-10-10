@@ -1,0 +1,12 @@
+node_modules
+dist
+.cache
+tsc-dist
+.env
+static/*.json
+static/*.csv
+.prettierrc
+settings.json
+.DS_Store
+.vscode
+yarn-error.log
